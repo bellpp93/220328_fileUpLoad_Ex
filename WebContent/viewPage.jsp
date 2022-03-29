@@ -36,6 +36,14 @@
 			
 			out.println("파일 업로드 객체 이름: " + fname + "<br>");
 			out.println("실제 파일 이름: " + original + "<br>");
+			out.println("저장된 파일 이름: " + filename + "<br>");
+			out.println("파일타입: " + type + "<br>");
+			
+			if(f != null){
+	            out.println("파일 크기: " + f.length());
+	            out.println("<br>");
+	        }
+
 		}
 		
 	} catch(Exception e) {
